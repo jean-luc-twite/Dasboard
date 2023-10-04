@@ -1,0 +1,26 @@
+/* Apply CSS to the entire body of the HTML */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the iframe containing the Power BI report */
+iframe {
+    width: 100%; /* Make the iframe responsive to the parent container */
+    height: 100vh; /* Set the iframe height to cover the full viewport height */
+    border: none; /* Remove the border around the iframe */
+}
+
+/* Style the title of the report */
+iframe[title="Fluid Intellect Dasboard"] {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add some spacing around the iframe */
+iframe[title="Fluid Intellect Dasboard"] {
+    margin: 20px;
+    padding: 10px;
+}
